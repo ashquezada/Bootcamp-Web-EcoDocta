@@ -1,0 +1,96 @@
+/*
+# Upcoming Events
+--------------------------------*/
+.home-page-events {
+    padding: 96px 0;
+}
+
+.section-heading .entry-title {
+    position: relative;
+    padding-bottom: 24px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.section-heading  .entry-title::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 64px;
+    height: 4px;
+    border-radius: 2px;
+    background: #80D305;
+}
+
+@media screen and (max-width: 992px) {
+    .home-page-events .featured-cause .section-heading {
+        margin-top: 80px;
+    }
+}
+
+.event-wrap {
+    margin-top: 40px;
+}
+
+.event-wrap figure {
+    width: 144px;
+    height: auto;
+}
+
+.event-wrap figure img {
+    display: block;
+    width: 100%;
+}
+
+.event-content-wrap {
+    width: calc(100% - 180px);
+    margin-top: -10px;
+}
+
+.event-content-wrap .entry-title a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.event-content-wrap .posted-date a,
+.event-content-wrap .cats-links a {
+    display: block;
+    position: relative;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1;
+    color: #262626;
+}
+
+.event-content-wrap .posted-date a {
+    padding-right: 14px;
+    margin-right: 14px;
+}
+
+.event-content-wrap .posted-date a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background: #262626;
+}
+
+.event-content-wrap .entry-content {
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #929191;
+}
+
+.event-content-wrap .entry-footer a {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #155724;
+    text-decoration: none;
+}
