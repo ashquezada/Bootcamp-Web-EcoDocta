@@ -25,3 +25,27 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Instalaciones a tener en cuenta
+
+Angular
+NodeJS
+
+#Instalar node.js y npm
+
+Instalar curl
+ $ apt-get install curl
+Configurar el repositorio
+ $ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+ $ sudo apt-get install build-essential
+ $ sudo apt-get install nodejs
+
+#Instalar Angular
+ $ npm install -g @angular/cli
+Esto va a crear una carpeta node_modules con todas las dependencias.
+
+ $ npm install --save bootstrap
+ $ npm install --save @ng-bootstrap/ng-bootstrap
+ 
+Podemos instalar font-awesome para utilizar los iconos.
+ $ npm install font-awesome
